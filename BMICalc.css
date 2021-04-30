@@ -1,0 +1,99 @@
+body {
+    background: url(balitemple.jpg)no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Pink Chicken";
+}
+h1 {
+    color: #9d4edd;
+    font-family: "Honey Sheet";
+      padding-bottom: 19px;
+      padding-top: 13px;
+      text-align: center;
+}
+#container {
+    background-color: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+
+    height: 300px;
+    width: 390px;
+    
+    display: grid;
+    grid-template-columns: 50px 2r 2fr 2fr 50px;
+    grid-template-rows: 100px 1fr 1fr;
+    margin: 0 auto;
+    border: 7px solid #76c893;
+}
+#weight-input{
+    height: 25px;
+    width: 210px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self: center;
+}
+#wlabel {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#height-input{
+    height: 25px;
+    width: 210px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: center;
+}
+#hlabel {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#bmi-output {
+    height: 25px;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    align-self: center;
+}
+#bmilabel {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+#btn {
+    font-family: "hey comic" ;
+    background-color: #76c893;
+    height: 50px;
+    width: 100px;
+    border: 0 none;
+    -webkit-border-radius: 5px;
+    border-radius: 10px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+}
+#table {
+    height: 90px;
+    width: 550px;
+    background-color: #eee8aa;
+    margin: 0 auto;
+    border: 5px solid #f4978e;
+}
+table, th, td {
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+}
